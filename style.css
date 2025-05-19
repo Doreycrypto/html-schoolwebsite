@@ -1,0 +1,229 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(IMAGES/campus1.jpg);
+    min-height: 30rem;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #118B50;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-left: 1.9rem;
+    margin-top: 10px;
+}
+nav ul li:hover{
+     
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+.title{
+    position: absolute;
+    top: 8%;
+    left: 24%;
+}
+.title h1{
+    color: #D2FF72;
+    font-size: 60px;
+}
+.title h5{
+    color: #D2FF72;
+    text-align: center;
+    font-size: small; 
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+.section h1{
+    color: aqua;
+    line-height: 50px;
+}
+.section p{
+    color: white;
+    font-size: x-large;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.features button{
+    padding: 0.7rem 1rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.AB{
+    background-color: #117554;
+    margin: 3px 0px 0px 0px;
+    color: azure;
+    font-size: larger;
+    }
+    .founder{
+     color: #D2FF72; 
+     font-size: x-large; 
+    }
+    .message h2{
+      text-align: center;  
+      color: #D2FF72;
+    }
+    .messagep{
+        color: white;
+    }
+.showcase h1{
+    margin: 5%;
+    margin-bottom: 5%;
+    text-align: right;
+}
+ 
+#courses{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+}
+#courses img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-bottom: 5%;
+}
+h1{
+    text-align: center;
+    color: orangered;
+}
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border: 10px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+ 
+.contactaddress{
+    margin: none;
+    padding: 50px;
+    font-weight: 200;
+    color: #000957;
+    text-align: justify;
+    background-color: #FFAB5B;
+    font-size: 15.6px;  
+    line-height: 40px; 
+}
+
+.contactform{
+    margin: none;
+    padding: 40px;
+    font-weight: 150;
+    color: white;
+    text-align: left;
+    background-color: #000957;
+    font-size: 15.6px;
+    line-height: 41.6px;
+    box-sizing: border-box;
+}
+    iframe{
+    width: 100%;
+    height: 500px; 
+    margin-bottom: -70px; 
+}
+
+.departments{
+    line-height: 25px;
+    color: white;
+    font: bolder;
+}
+.departments h2 {
+    margin-left: 10%;
+    margin-bottom: -1%;
+    font: bolder;
+    color: aqua;
+}
+.assessment{
+    margin: 0px;
+    margin-top: -38px;
+    margin-bottom: -15px;
+    width: 100%;
+}
+.assessment tr{
+    background-color: #780C28;
+    text-align: justify;
+    line-height: 30px;
+    color: aliceblue;
+}
+.asessment h3{
+    text-align: center;
+    
+}
+.assessment ul{
+    margin-top: -2%;
+}
+.progression{
+    text-align: center;
+    color: aliceblue;
+    background-color: #117554;
+    line-height: 30px;
+    margin-top: -20px;
+    margin-bottom: -95px;
+    padding-bottom: 10px;
+     height: 300px;
+}
+.progression h3{
+    color: yellowgreen;
+   font-size: x-large;
+   margin-bottom: -50px;
+   padding-top: 4%;
+}
+.progression p{
+    font-size: large;
+    padding-top: 5%;
+    margin-top: -2%;
+    
+}
+.wrapper2{
+     background: url(IMAGES/student2.jpg);
+     margin-bottom: -3px;
+     min-height: 30rem;     
+}.wrapper3{
+     background-color: #006769;
+     margin-bottom: -3px;
+     min-height: 30rem;  
+     opacity: 1px;   
+}
+ 
